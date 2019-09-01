@@ -1,10 +1,41 @@
 body{
+  
     background:tan;
 }
+header{
+    width:100%
+}
+.name-block{
+    background:#59AAA5;
+    color:#fff;
+    width:100%;
+    text-align: center;
+}
 
+nav{
+    background:#fff;
+    color:#ccc;
+    text-align: center;
+}
+ul{
+    
+    list-style: none;
+}
+li{
+    display:inline;
 
-
+}
+a{
+    text-decoration: none;
+}
 .main{
     background:#fff;
     border: 2px solid #ddd;
+    
+}
+
+img{
+    display:block;
+    width:85%; 
+    margin: 0 auto;
 }
