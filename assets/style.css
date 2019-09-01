@@ -1,8 +1,15 @@
+.clearfix::after { 
+    content: "";
+    display: block; 
+    clear: both;
+  }
 *{
     margin:0;
 }
 body{
-    background-image: url("../assets/images/dark-triangles.png")
+    border-box:box-sizing;
+    background-image: url("../assets/images/dark-triangles.png");
+    
 }
 header{
     width:100%
@@ -75,4 +82,82 @@ footer{
 .wrapper p{
     padding:4%;
     color:#777;
+    line-height: 1.5rem;
 }
+
+
+/* media queries */
+@media screen and (min-width: 760px){
+    header{        
+        position: relative;
+    }
+    .nav-wrapper{
+        box-sizing: border-box;
+        height: 4rem;
+    }
+    .name-block{
+        width: 25%;
+        margin-right: 0;
+        font-size: .65em;
+        padding-top:1.85rem;
+        padding-bottom:1.8rem;
+        position: absolute;;
+        left: 10;
+        top:0;
+        left:2rem;
+        z-index: 10;
+        
+    }
+    
+    nav{  
+        box-sizing: border-box;      
+        width:100% ;
+        text-align: right;
+        position: absolute;
+        top:0;
+        right:0;
+        
+    }
+    ul{
+        padding-top:2rem;
+        padding-bottom:2rem;
+
+    }
+    .main-section{
+        position: relative;
+    }
+    .section-title{
+        width:90%;
+        
+    }
+    .main{
+        margin-top:3rem;
+        width: 95%;
+    }
+   
+.wrapper{
+    padding-left:1.5rem;
+}
+.wrapper p{
+    padding-left:0;
+    padding-right 0;
+    padding-top:0;
+    padding-bottom:0;
+    line-height: 2rem;
+}
+
+    .profile-img{
+        width:40%;
+        float:left;
+        padding-right:1rem;
+    }
+
+    footer{
+        position:fixed;
+        bottom:0;
+        width:100%;
+    }
+
+}
+
+
