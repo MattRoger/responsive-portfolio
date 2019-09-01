@@ -7,8 +7,11 @@
     margin:0;
 }
 body{
-    border-box:box-sizing;
+    box-sizing: border-box;
     background-image: url("../assets/images/dark-triangles.png");
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
     
 }
 header{
@@ -35,10 +38,11 @@ ul{
     padding-top:5%;
     padding-bottom: 5%;
 }
-li{
+nav li{
     display:inline;
     padding-right:1rem;
     border-right: .1rem solid #ccc;
+    margin-right: 1.5rem;
 
 }
 a{
@@ -84,7 +88,35 @@ footer{
     color:#777;
     line-height: 1.5rem;
 }
+/* contact styles */
+form{
+    color:#777;    
+}
+label{
+    display:block;
 
+}
+input[type=text],
+input[type=email],
+textarea{
+    width:85%;
+    border:.05em solid #ddd ;
+    margin-bottom:.75rem;
+    margin-top:.25rem;
+    padding:2%;
+}
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin-bottom:15%;
+  }
+  textarea{
+      height:200px;
+  }
 
 /* media queries */
 @media screen and (min-width: 760px){
@@ -133,6 +165,7 @@ footer{
     .main{
         margin-top:3rem;
         width: 95%;
+        margin-bottom:30%;
     }
    
 .wrapper{
@@ -140,11 +173,8 @@ footer{
 }
 .wrapper p{
     padding-left:0;
-    padding-right 0;
-    padding-top:0;
-    padding-bottom:0;
     line-height: 2rem;
-}
+   }
 
     .profile-img{
         width:40%;
