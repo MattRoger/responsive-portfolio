@@ -1,3 +1,6 @@
+*{
+    margin:0;
+}
 body{
   
     background:tan;
@@ -31,8 +34,26 @@ a{
 .main{
     background:#fff;
     border: 2px solid #ddd;
-    
+    width:85%;
+    margin:1rem auto;
+   
 }
+
+.section-title{
+    display: block;
+    color:#59AAA5;
+    margin: 1rem auto;
+    width:85%;
+    border-bottom: .25em solid #ccc;
+    }
+
+
+footer{
+        background:#666;
+        border-top:2px solid #59AAA5;
+        color:#fff;
+        margin-top:3rem;
+    }
 
 img{
     display:block;
