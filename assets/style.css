@@ -97,15 +97,12 @@ footer{
 }
 .work {
     position: relative;
-    float: left;
     width: 80%;
     margin: 25px auto;
     overflow: auto;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
+
   
   .work img {
     width: 100%;
@@ -222,7 +219,19 @@ input[type=submit] {
         float:left;
         padding-right:1rem;
     }
-
+    .work{
+        float: left;
+        width:45%;
+        
+    }
+    .work:nth-child(even) {
+        margin-left:40px;
+      }
+    .portfolio{
+        display:inline;
+        margin: 0 auto;
+        
+    } 
     footer{
         /* position:fixed;
         bottom:0; */
