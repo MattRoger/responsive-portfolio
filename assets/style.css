@@ -150,7 +150,7 @@ input[type=submit] {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
-    margin-bottom:15%;
+    margin-bottom:1%;
   }
   textarea{
       height:200px;
@@ -171,7 +171,7 @@ input[type=submit] {
         font-size: .65em;
         padding-top:1.85rem;
         padding-bottom:1.8rem;
-        position: absolute;;
+        position: absolute;
         left: 10;
         top:0;
         left:2rem;
@@ -179,6 +179,17 @@ input[type=submit] {
         
     }
     
+    input[type=text],
+    input[type=email],
+    textarea{
+    width:90%;
+}
+    textarea{
+        height: 150px;
+    }
+    input[type=submit]{
+        margin-left: 5%;
+    }
     nav{  
         box-sizing: border-box;      
         width:100% ;
@@ -206,12 +217,12 @@ input[type=submit] {
         margin-bottom:30%;
     }
    
-.wrapper{
-    padding-left:1.5rem;
-}
-.wrapper p{
-    padding-left:0;
-    line-height: 2rem;
+    .wrapper{
+        padding-left:1.5rem;
+    }
+    .wrapper p{
+        padding-left:0;
+        line-height: 2rem;
    }
 
     .profile-img{
