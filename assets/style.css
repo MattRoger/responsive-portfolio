@@ -15,7 +15,8 @@ body{
     
 }
 header{
-    width:100%
+    width:100%;
+    border-bottom:2em solid #ccc;
 }
 .name-block{
     background:#59AAA5;
@@ -24,6 +25,7 @@ header{
     text-align: center;
     padding-top:5%;
     padding-bottom: 5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 nav{
@@ -56,7 +58,10 @@ a{
     margin:1rem auto;
    
 }
-
+ul p{
+    color:#777;
+ 
+}
 .section-title{
     display: block;
     color:#59AAA5;
@@ -251,4 +256,34 @@ input[type=submit] {
 
 }
 
+@media screen and (min-width: 1024px){
+    .main-section{
+        width:969px;
+        margin: 6em auto;
+    }
+    .name-block{
+        font-size: 1.25rem;
+        padding-top:2rem;
+        padding-bottom:2rem;
+        margin-left: 17%;
+    }
+ ul{
+     margin-right:17%
+ }
+ .section-title{
+     width:94%;
+ }
+ .wrapper p{
+     padding-top:0;
+ }
+ .work{
+     width:33%;
+ }
+ 
+}
 
+@media screen and (min-width:980px){
+    .main-section{
+        width:65%;
+    }
+}
