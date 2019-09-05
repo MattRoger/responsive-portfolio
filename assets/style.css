@@ -16,7 +16,8 @@ body{
 }
 header{
     width:100%;
-    border-bottom:2em solid #ccc;
+    border-bottom:.5em solid #ccc;
+    margin-bottom:1.5rem;
 }
 .name-block{
     background:#59AAA5;
@@ -32,7 +33,6 @@ nav{
     background:#fff;
     color:#ccc;
     text-align: center;
-    margin-bottom:1.5rem;
 }
 ul{
     
@@ -286,6 +286,8 @@ input[type=submit] {
     .main-section{
         width:65%;
     }
-    .work h3{
+ 
+    header{
+        border-bottom:2.5rem solid #ccc;
     }
 }
